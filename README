@@ -1,0 +1,18 @@
+About Seam Patched
+~~~~~~~~~~~~~~~~~~
+
+This project is provided to distribute Seam v2.0.2 with a patch that was
+not accepted into Seam Core until 2.1.
+
+The patch is described here:
+
+https://jira.jboss.org/jira/browse/JBSEAM-3097
+
+Basically it allows HibernatePersistenceProvider/ManagedHibernateSession
+to correctly pass a collection of values to the underlying filter.
+
+In the spirit of not requiring people to upgrade their underlying version
+of Seam for their applications to take advantage of this feature (which
+could cause regression errors in non-trivial applications), we have released
+this patched version of Seam v2.0.2.SP1 for your convenience.
+
